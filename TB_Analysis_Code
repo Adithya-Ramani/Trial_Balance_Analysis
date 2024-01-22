@@ -1,0 +1,9 @@
+import pandas as pd
+import numpy as np
+
+df = pd.read_excel('tb.xlsx')
+# tb.xlsx refers to our trial balance file. Any Trial balance of your choice can be inputed in the path here
+
+df['Balance'].sum()
+df.info()
+
